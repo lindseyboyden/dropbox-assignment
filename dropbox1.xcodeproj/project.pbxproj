@@ -14,6 +14,13 @@
 		13DC1BF41BAFA24C001075DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13DC1BF21BAFA24C001075DC /* LaunchScreen.storyboard */; };
 		13DC1BFF1BAFA24C001075DC /* dropbox1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC1BFE1BAFA24C001075DC /* dropbox1Tests.swift */; };
 		13DC1C0A1BAFA24C001075DC /* dropbox1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC1C091BAFA24C001075DC /* dropbox1UITests.swift */; };
+		13DC1C181BAFB7FE001075DC /* SignInSettings_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC1C171BAFB7FE001075DC /* SignInSettings_VC.swift */; settings = {ASSET_TAGS = (); }; };
+		13DC1C1C1BAFBC81001075DC /* SignUpSettings_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC1C1B1BAFBC81001075DC /* SignUpSettings_VC.swift */; settings = {ASSET_TAGS = (); }; };
+		13DC1C1E1BAFC72F001075DC /* SignUp_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC1C1D1BAFC72F001075DC /* SignUp_VC.swift */; settings = {ASSET_TAGS = (); }; };
+		13DC1C201BAFCA08001075DC /* SignIn_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC1C1F1BAFCA08001075DC /* SignIn_VC.swift */; settings = {ASSET_TAGS = (); }; };
+		13DC1C281BB0912F001075DC /* Sign In Photos ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC1C271BB0912F001075DC /* Sign In Photos ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		13DC1C2A1BB091E0001075DC /* NewAccount1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC1C291BB091E0001075DC /* NewAccount1ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		13DC1C2C1BB093D2001075DC /* CreateAccountPop1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC1C2B1BB093D2001075DC /* CreateAccountPop1ViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		13DC1C051BAFA24C001075DC /* dropbox1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dropbox1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		13DC1C091BAFA24C001075DC /* dropbox1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dropbox1UITests.swift; sourceTree = "<group>"; };
 		13DC1C0B1BAFA24C001075DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13DC1C171BAFB7FE001075DC /* SignInSettings_VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInSettings_VC.swift; sourceTree = "<group>"; };
+		13DC1C1B1BAFBC81001075DC /* SignUpSettings_VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpSettings_VC.swift; sourceTree = "<group>"; };
+		13DC1C1D1BAFC72F001075DC /* SignUp_VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUp_VC.swift; sourceTree = "<group>"; };
+		13DC1C1F1BAFCA08001075DC /* SignIn_VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignIn_VC.swift; sourceTree = "<group>"; };
+		13DC1C271BB0912F001075DC /* Sign In Photos ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Sign In Photos ViewController.swift"; sourceTree = "<group>"; };
+		13DC1C291BB091E0001075DC /* NewAccount1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewAccount1ViewController.swift; sourceTree = "<group>"; };
+		13DC1C2B1BB093D2001075DC /* CreateAccountPop1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountPop1ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +91,8 @@
 		13DC1BDD1BAFA24C001075DC = {
 			isa = PBXGroup;
 			children = (
+				13DC1C2B1BB093D2001075DC /* CreateAccountPop1ViewController.swift */,
+				13DC1C291BB091E0001075DC /* NewAccount1ViewController.swift */,
 				13DC1BE81BAFA24C001075DC /* dropbox1 */,
 				13DC1BFD1BAFA24C001075DC /* dropbox1Tests */,
 				13DC1C081BAFA24C001075DC /* dropbox1UITests */,
@@ -100,6 +116,11 @@
 				13DC1BE91BAFA24C001075DC /* AppDelegate.swift */,
 				13DC1BEB1BAFA24C001075DC /* ViewController.swift */,
 				13DC1BED1BAFA24C001075DC /* Main.storyboard */,
+				13DC1C271BB0912F001075DC /* Sign In Photos ViewController.swift */,
+				13DC1C1F1BAFCA08001075DC /* SignIn_VC.swift */,
+				13DC1C1D1BAFC72F001075DC /* SignUp_VC.swift */,
+				13DC1C1B1BAFBC81001075DC /* SignUpSettings_VC.swift */,
+				13DC1C171BAFB7FE001075DC /* SignInSettings_VC.swift */,
 				13DC1BF01BAFA24C001075DC /* Assets.xcassets */,
 				13DC1BF21BAFA24C001075DC /* LaunchScreen.storyboard */,
 				13DC1BF51BAFA24C001075DC /* Info.plist */,
@@ -255,8 +276,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13DC1C181BAFB7FE001075DC /* SignInSettings_VC.swift in Sources */,
+				13DC1C2A1BB091E0001075DC /* NewAccount1ViewController.swift in Sources */,
+				13DC1C1E1BAFC72F001075DC /* SignUp_VC.swift in Sources */,
 				13DC1BEC1BAFA24C001075DC /* ViewController.swift in Sources */,
+				13DC1C1C1BAFBC81001075DC /* SignUpSettings_VC.swift in Sources */,
 				13DC1BEA1BAFA24C001075DC /* AppDelegate.swift in Sources */,
+				13DC1C281BB0912F001075DC /* Sign In Photos ViewController.swift in Sources */,
+				13DC1C2C1BB093D2001075DC /* CreateAccountPop1ViewController.swift in Sources */,
+				13DC1C201BAFCA08001075DC /* SignIn_VC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
